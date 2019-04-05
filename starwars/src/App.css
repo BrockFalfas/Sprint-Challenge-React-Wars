@@ -6,3 +6,30 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.character-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-card{
+  width: 33%;
+  padding: 25px;
+  background-color: rgba(136, 127, 127, 0.53);
+  margin: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  border: 3px solid white;
+}
+
+.character-card:hover{
+  background-color: rgba(40, 31, 21, 0.899);
+}
+
+.color {
+  color: yellow;
+};
